@@ -4,6 +4,10 @@ body {
     background-color: #FFFFFF;
 }
 
+*{
+    box-sizing:border-box;
+}
+
 #content1 {
     background-color: #E9967A;
     padding: 10px 10px 10px 10px;
