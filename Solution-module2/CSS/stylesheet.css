@@ -8,6 +8,14 @@ body {
     box-sizing:border-box;
 }
 
+#bg1 {
+    background-color: #E9967A;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid black;
+    margin: 40px;
+    width: 300px
+}
+
 #content1 {
     background-color: #E9967A;
     padding: 10px 10px 10px 10px;
@@ -18,16 +26,16 @@ body {
 
 #content2 {
     background-color:aqua;
-    padding: 10x 10x 10x 10x;
-    border: 3x solid black;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid black;
     margin: 40px;
     width: 300px
 }
 
 #content3{
     background-color:cornflowerblue;
-    padding: 10x 10x 10x 10ex;
-    border: 3x solid black;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid black;
     margin: 40px;
     width: 300px;
 }
