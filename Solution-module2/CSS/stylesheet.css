@@ -11,7 +11,7 @@ body {
 h2 {
     position: relative;
     top: 5px;
-    right: 5px;
+    left: 5px;
 }
     
 #content1 {
