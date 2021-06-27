@@ -13,8 +13,7 @@ h2 {
     top: 5px;
     left: 180px;
 }
-    
-#content1 {
+div.col-lg-4col-md-6col-sd-12 {
     float: left;
     background-color: #E9967A;
     padding: 10px 10px 10px 10px;
@@ -23,7 +22,7 @@ h2 {
     width: 300px;
 }
 
-#content2 {
+div.col-lg-4col-md-6col-sd-12 {
     float: left;
     background-color:aqua;
     padding: 10px 10px 10px 10px;
@@ -33,7 +32,7 @@ h2 {
     
 }
 
-#content3{
+div.col-lg-4col-md-12col-sd-12{
     float: left;
     background-color:cornflowerblue;
     padding: 10px 10px 10px 10px;
