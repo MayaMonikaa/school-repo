@@ -45,7 +45,8 @@ div.col-lg-4-col-md-12-col-sd-12{
 
 /** simple responsive framework **/
 div.row {
-    width: 100%
+    width: 100%;
+    margin: 10px;
 }
 
 /*** large screen devices ***/
