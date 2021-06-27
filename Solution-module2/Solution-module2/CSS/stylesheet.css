@@ -11,3 +11,19 @@ body {
     margin: 40px;
     width: 300px
 }
+
+#content2 {
+    background-color:aqua;
+    padding: 10x 10x 10x 10x;
+    border: 3x solid black;
+    margin: 40px;
+    width: 300px
+}
+
+#content3{
+    background-color:cornflowerblue;
+    padding: 10x 10x 10x 10ex;
+    border: 3x solid black;
+    margin: 40px;
+    width: 300px;
+}
