@@ -9,6 +9,8 @@ body {
 }
 
 h1 {
+    position: relative;
+    float: right;
     margin: 15px;
 }
 
