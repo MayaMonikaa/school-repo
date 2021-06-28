@@ -18,7 +18,7 @@ h2 {
     border: 1px solid black
 }
 
-div.p {
+.p {
     float: right;
     border: 1px solid black;
     background-color: salmon;
@@ -27,6 +27,7 @@ div.p {
     margin-right: auto;
     margin-left: auto;
     color:black;
+
 }
 
 /** simple responsive framework **/
