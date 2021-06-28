@@ -27,9 +27,8 @@ div.p {
 }
 
 /** simple responsive framework **/
-div.row {
-    width: 90%;
-    margin: 10px;
+.row {
+    width: 100%;
 }
 
 /*** large screen devices ***/
