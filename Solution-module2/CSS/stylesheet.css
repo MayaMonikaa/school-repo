@@ -28,6 +28,11 @@ div[class='col-lg-4 col-md-6 col-sd-12'] {
     color:black;
 }
 
+#text {
+    border: 1px solid black;
+    background-color: salmon;
+}
+
 div[class="col-lg-4 col-md-12 col-sd-12"] {
     border: 1px solid black;
     background-color: salmon;
