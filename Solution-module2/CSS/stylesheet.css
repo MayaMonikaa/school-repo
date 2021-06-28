@@ -19,7 +19,7 @@ h2 {
     margin: 15px
 }
 
-div.class {
+p[class='col-lg-4 col-md-6 col-sd-12'] {
     float: right;
     border: 1px solid black;
     background-color: salmon;
