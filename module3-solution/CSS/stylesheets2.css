@@ -24,6 +24,11 @@ body {
     text-align:center; 
 }
 
+#collapsable-nav {
+    background-color: darkcyan;
+    color:black;
+}
+
 h2 {
     position: relative;
     text-align:center;
