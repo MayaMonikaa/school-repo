@@ -28,6 +28,11 @@ body {
     line-height:.75;
 }
 
+button.navbar-toggle.collapsed {
+    width: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
 .navbar-brand a:hover, .nav-brand a:focus {
     text-decoration: none;
 }
