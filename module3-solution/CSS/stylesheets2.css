@@ -17,6 +17,11 @@ body {
     padding-top: 25px;
 }
 
+h1 {
+    position:relative;
+    font-size: 1.5em;
+    text-align:center;
+}
 h2 {
     position: relative;
     text-align:center;
