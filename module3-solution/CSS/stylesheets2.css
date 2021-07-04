@@ -10,5 +10,20 @@ body {
     background-color: burlywood;
     border-radius: 0px;
     border:0px;
+}
 
+.navbar-brand h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkblue;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight:bold;
+    text-shadow: 1px 1px 1px blueviolet;
+    margin-top:0;
+    margin-bottom:0;
+    line-height:.75;
+}
+
+.navbar-brand a:hover, .nav-brand a:focus {
+    text-decoration: none;
 }
