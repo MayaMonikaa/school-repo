@@ -54,3 +54,14 @@ p {
 .navbar-brand a:hover, .nav-brand a:focus {
     text-decoration: none;
 }
+/*** Medium devices only ***/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*** Small devices only ***/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/*** Extra small devices only ***/
+@media (max-width: 767px) {
+}
