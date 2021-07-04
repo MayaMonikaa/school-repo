@@ -1,3 +1,14 @@
-Style {
-    background-color:teal;
+body {
+    font-size: 16px;
+    color:black;
+    background-color:indianred; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/** Header **/
+#header-nav {
+    background-color: burlywood;
+    border-radius: 0px;
+    border:0px;
+
 }
