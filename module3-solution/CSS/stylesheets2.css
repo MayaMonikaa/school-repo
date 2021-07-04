@@ -58,6 +58,10 @@ p {
     line-height:.75;
 }
 
+.row {
+    width: 100%;
+}
+
 .navbar-brand a:hover, .nav-brand a:focus {
     text-decoration: none;
 }
