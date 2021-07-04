@@ -5,6 +5,10 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+* {
+    box-sizing:border-box;
+}
+
 /** Header **/
 #header-nav {
     background-color: burlywood;
@@ -26,21 +30,6 @@ body {
     margin-top:0;
     margin-bottom:0;
     line-height:.75;
-}
-
-span.icon-bar {
-    width: 5px;
-    margin-bottom:0;
-    margin-top:0;
-    border: 2px;
-    border-color:black;
-
-}
-
-button.navbar-toggle.collapsed {
-    width: 20px;
-    height:10px;
-    padding: 5px 5px 5px 5px;
 }
 
 .navbar-brand a:hover, .nav-brand a:focus {
