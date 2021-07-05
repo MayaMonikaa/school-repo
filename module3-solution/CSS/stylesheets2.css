@@ -65,6 +65,9 @@ p {
     background-color:darkcyan;
     text-align:left;
 }
+p.a.p {
+    color:black
+}
 
 .navbar-brand h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
