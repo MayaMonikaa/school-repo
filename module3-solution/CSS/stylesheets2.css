@@ -22,6 +22,11 @@ body {
     margin: 0px;
 }
 
+.nav>li>a {
+    position: relative;
+    padding: 10px 10px;
+}
+
 .navbar-collapse {
     padding-left: 0px;
     padding-right: 0px;
