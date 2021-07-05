@@ -31,14 +31,9 @@ body {
 }
 
 #collapsable-nav {
-    background-color:cadetblue;
+    background-color:grey;
     color:black;
     text-align: center;
-}
-
-.hidden-md-hidden-sm {
-    color:black;
-    font-size: 1em;
 }
 
 h2 {
