@@ -84,7 +84,7 @@ p {
 }
 
 /*** Medium devices only ***/
-@media (min-width: 992px) and (max-width: 2000px) {
+@media (min-width: 992px) and (max-width: 1999px) {
 }
 
 /*** Small devices only ***/
