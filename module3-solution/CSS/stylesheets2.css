@@ -34,7 +34,11 @@ body {
     background-color:cornsilk;
     color:black;
     text-align: center;
+}
+
+#nav-list {
     border: 3px solid black;
+    color: black;
 }
 
 h2 {
