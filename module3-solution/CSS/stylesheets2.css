@@ -37,7 +37,10 @@ body {
 #collapsable-nav {
     background-color:cornsilk;
     text-align: center;
-    color: black;
+}
+
+#collapsable-nav.a {
+    color:black;
 }
 
 h2 {
