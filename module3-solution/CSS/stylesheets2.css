@@ -18,6 +18,10 @@ body {
     padding-left: 0px;
 }
 
+.navbar-nav{
+    margin: 0px;
+}
+
 .navbar {
     position: relative;
     min-height: 50px;
