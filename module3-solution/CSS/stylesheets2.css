@@ -22,6 +22,11 @@ body {
     margin: 0px;
 }
 
+.navbar-collapse {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .navbar {
     position: relative;
     min-height: 50px;
