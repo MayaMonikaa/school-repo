@@ -41,6 +41,10 @@ li.hidden-md.hidden-sm {
     color: black;
 }
 
+.navbar-collapse {
+    overflow: hidden;
+}
+
 h2 {
     position: relative;
     text-align:center;
