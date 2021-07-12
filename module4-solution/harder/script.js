@@ -42,7 +42,7 @@ WARNING!!! WARNING!!!
 // See Lecture 50, part 1
 for (var i=0; i<names.length; i++) {
   var firstLetter=names[i].charAt(0).toLowerCase();
-};
+
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
   // Use the string object's 'charAt' function. Since we are looking for
@@ -65,5 +65,5 @@ for (var i=0; i<names.length; i++) {
     helloSpeaker(names[i]);
     // helloSpeaker.xxxx
   }
-
+}
 })()
