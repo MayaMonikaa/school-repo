@@ -80,18 +80,20 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // *** start ***
 // On first load, show home view
-showLoading("#main-content");
-$ajaxUtils.sendGetRequest(
+function buildAndShowHomeHTML() {
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
-  [...], // ***** <---- TODO: STEP 1: Substitute [...] ******
+  buildAndShowCategoriesHTML, // ***** <---- TODO: STEP 1: Substitute [...] ******
   true); // Explicitly setting the flag to get JSON from server processed into an object literal
-});
+};
 // *** finish **
 
 
 // Builds HTML for the home page based on categories array
 // returned from the server.
 function buildAndShowHomeHTML (categories) {
+  showLoading("#main-content");
 
   // Load home snippet page
   $ajaxUtils.sendGetRequest(
@@ -102,7 +104,14 @@ function buildAndShowHomeHTML (categories) {
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
       // variable's name implies it expects.
       // var chosenCategoryShortName = ....
+      function chooseRandomCategory () {
+        var chosenCategoryShortName=
+        buildCategoriesViewHtml(categories, 
+                                categoriesTitleHtml,
+                                categoryHtml);
+        insertHtml("#main-content", categoriesViewHtml);
 
+        }
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
       // chosen category from STEP 2. Use existing insertProperty function for that purpose.
@@ -341,3 +350,4 @@ function insertItemPortionName(html,
 global.$dc = dc;
 
 })(window);
+});
